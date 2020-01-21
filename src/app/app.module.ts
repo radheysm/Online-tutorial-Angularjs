@@ -13,6 +13,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
+import {EmployeeserviceService} from './auth/employeeservice.service';
+import {HttpClientModule, HttpClient} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +30,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     StaticpagesModule,
     AdminModule,
     AuthModule,
-    AppRoutingModule
+    AppRoutingModule,
+    EmployeeserviceService,
+    HttpClientModule,
+    HttpClient
   ],
   providers: [],
   bootstrap: [AppComponent]
