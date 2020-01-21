@@ -7,6 +7,7 @@ import { CourseListComponent } from './course-list/course-list.component';
 import { CourseDetailComponent } from './course-detail/course-detail.component';
 import { CourseRecentComponent } from './course-recent/course-recent.component';
 import { CourseCategoriesComponent } from './course-categories/course-categories.component';
+import { Route } from '@angular/compiler/src/core';
 
 
 @NgModule({
